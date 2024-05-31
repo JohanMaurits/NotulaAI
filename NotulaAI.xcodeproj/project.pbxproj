@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04530B062BFC9E0700FA6098 /* NotulaAIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04530B052BFC9E0700FA6098 /* NotulaAIApp.swift */; };
+		04530B082BFC9E0700FA6098 /* RecordingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04530B072BFC9E0700FA6098 /* RecordingView.swift */; };
+		04530B0A2BFC9E0800FA6098 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04530B092BFC9E0800FA6098 /* Assets.xcassets */; };
+		04530B0D2BFC9E0800FA6098 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04530B0C2BFC9E0800FA6098 /* Preview Assets.xcassets */; };
+		04530B182BFCB27100FA6098 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04530B172BFCB27100FA6098 /* Theme.swift */; };
+		04530B1A2BFCB52F00FA6098 /* Meeting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04530B192BFCB52F00FA6098 /* Meeting.swift */; };
+		04530B202BFD9A7F00FA6098 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04530B1F2BFD9A7F00FA6098 /* CardView.swift */; };
+		04530B222BFDA79B00FA6098 /* TrailingIconLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04530B212BFDA79B00FA6098 /* TrailingIconLabelStyle.swift */; };
+		04530B242BFDAC5800FA6098 /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04530B232BFDAC5800FA6098 /* MeetingView.swift */; };
+		04530B262BFDEC1600FA6098 /* DetailMeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04530B252BFDEC1600FA6098 /* DetailMeetingView.swift */; };
+		04530B282C00747500FA6098 /* DetailEditMeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04530B272C00747500FA6098 /* DetailEditMeetingView.swift */; };
+		04530B2A2C008B7F00FA6098 /* ThemeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04530B292C008B7F00FA6098 /* ThemeView.swift */; };
+		04530B2C2C008D0400FA6098 /* ThemePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04530B2B2C008D0400FA6098 /* ThemePickerView.swift */; };
+		04530B2E2C00DC2F00FA6098 /* RecordingHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04530B2D2C00DC2F00FA6098 /* RecordingHeaderView.swift */; };
+		04530B302C00E09400FA6098 /* RecordingProgressViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04530B2F2C00E09400FA6098 /* RecordingProgressViewStyle.swift */; };
+		04530B322C00E27500FA6098 /* RecordingTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04530B312C00E27500FA6098 /* RecordingTimer.swift */; };
+		04530B342C00E59F00FA6098 /* RecordingFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04530B332C00E59F00FA6098 /* RecordingFooterView.swift */; };
+		04530B362C00EE0100FA6098 /* AVPlayer+Ding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04530B352C00EE0100FA6098 /* AVPlayer+Ding.swift */; };
+		04530B392C00EE7A00FA6098 /* ding.wav in Resources */ = {isa = PBXBuildFile; fileRef = 04530B372C00EE7A00FA6098 /* ding.wav */; };
+		04530B3D2C022BF800FA6098 /* NewMeetingSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04530B3C2C022BF800FA6098 /* NewMeetingSheetView.swift */; };
+		04530B3F2C022FAA00FA6098 /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04530B3E2C022FAA00FA6098 /* History.swift */; };
+		04530B412C02393600FA6098 /* MeetingStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04530B402C02393600FA6098 /* MeetingStore.swift */; };
+		04530B432C032CD400FA6098 /* ErrorWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04530B422C032CD400FA6098 /* ErrorWrapper.swift */; };
+		04530B452C032D6A00FA6098 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04530B442C032D6A00FA6098 /* ErrorView.swift */; };
+		04530B472C03488900FA6098 /* RecordingTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04530B462C03488900FA6098 /* RecordingTimerView.swift */; };
+		04530B492C034AF500FA6098 /* SpeakerArc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04530B482C034AF400FA6098 /* SpeakerArc.swift */; };
+		04530B4B2C034FBE00FA6098 /* SpeechRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04530B4A2C034FBE00FA6098 /* SpeechRecognizer.swift */; };
+		04530B4D2C03531D00FA6098 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04530B4C2C03531D00FA6098 /* HistoryView.swift */; };
+		0485D9382C037EA1007360BE /* OpenAIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0485D9372C037EA1007360BE /* OpenAIModel.swift */; };
+		0485D93A2C03ADFD007360BE /* LoadingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0485D9392C03ADFD007360BE /* LoadingState.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04530B022BFC9E0700FA6098 /* NotulaAI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NotulaAI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04530B052BFC9E0700FA6098 /* NotulaAIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotulaAIApp.swift; sourceTree = "<group>"; };
+		04530B072BFC9E0700FA6098 /* RecordingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingView.swift; sourceTree = "<group>"; };
+		04530B092BFC9E0800FA6098 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04530B0C2BFC9E0800FA6098 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		04530B0E2BFC9E0800FA6098 /* NotulaAI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NotulaAI.entitlements; sourceTree = "<group>"; };
+		04530B172BFCB27100FA6098 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		04530B192BFCB52F00FA6098 /* Meeting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meeting.swift; sourceTree = "<group>"; };
+		04530B1F2BFD9A7F00FA6098 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		04530B212BFDA79B00FA6098 /* TrailingIconLabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailingIconLabelStyle.swift; sourceTree = "<group>"; };
+		04530B232BFDAC5800FA6098 /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
+		04530B252BFDEC1600FA6098 /* DetailMeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailMeetingView.swift; sourceTree = "<group>"; };
+		04530B272C00747500FA6098 /* DetailEditMeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailEditMeetingView.swift; sourceTree = "<group>"; };
+		04530B292C008B7F00FA6098 /* ThemeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeView.swift; sourceTree = "<group>"; };
+		04530B2B2C008D0400FA6098 /* ThemePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemePickerView.swift; sourceTree = "<group>"; };
+		04530B2D2C00DC2F00FA6098 /* RecordingHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingHeaderView.swift; sourceTree = "<group>"; };
+		04530B2F2C00E09400FA6098 /* RecordingProgressViewStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordingProgressViewStyle.swift; sourceTree = "<group>"; };
+		04530B312C00E27500FA6098 /* RecordingTimer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordingTimer.swift; sourceTree = "<group>"; };
+		04530B332C00E59F00FA6098 /* RecordingFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingFooterView.swift; sourceTree = "<group>"; };
+		04530B352C00EE0100FA6098 /* AVPlayer+Ding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AVPlayer+Ding.swift"; sourceTree = "<group>"; };
+		04530B372C00EE7A00FA6098 /* ding.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ding.wav; sourceTree = "<group>"; };
+		04530B3C2C022BF800FA6098 /* NewMeetingSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewMeetingSheetView.swift; sourceTree = "<group>"; };
+		04530B3E2C022FAA00FA6098 /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
+		04530B402C02393600FA6098 /* MeetingStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingStore.swift; sourceTree = "<group>"; };
+		04530B422C032CD400FA6098 /* ErrorWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorWrapper.swift; sourceTree = "<group>"; };
+		04530B442C032D6A00FA6098 /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
+		04530B462C03488900FA6098 /* RecordingTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingTimerView.swift; sourceTree = "<group>"; };
+		04530B482C034AF400FA6098 /* SpeakerArc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeakerArc.swift; sourceTree = "<group>"; };
+		04530B4A2C034FBE00FA6098 /* SpeechRecognizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeechRecognizer.swift; sourceTree = "<group>"; };
+		04530B4C2C03531D00FA6098 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		0485D9372C037EA1007360BE /* OpenAIModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAIModel.swift; sourceTree = "<group>"; };
+		0485D9392C03ADFD007360BE /* LoadingState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingState.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04530AFF2BFC9E0700FA6098 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04530AF92BFC9E0700FA6098 = {
+			isa = PBXGroup;
+			children = (
+				04530B042BFC9E0700FA6098 /* NotulaAI */,
+				04530B032BFC9E0700FA6098 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04530B032BFC9E0700FA6098 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04530B022BFC9E0700FA6098 /* NotulaAI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04530B042BFC9E0700FA6098 /* NotulaAI */ = {
+			isa = PBXGroup;
+			children = (
+				04530B052BFC9E0700FA6098 /* NotulaAIApp.swift */,
+				04530B162BFCB25E00FA6098 /* Models */,
+				04530B1C2BFD9A1800FA6098 /* Views */,
+				04530B092BFC9E0800FA6098 /* Assets.xcassets */,
+				04530B382C00EE7A00FA6098 /* Resources */,
+				04530B0E2BFC9E0800FA6098 /* NotulaAI.entitlements */,
+				04530B0B2BFC9E0800FA6098 /* Preview Content */,
+			);
+			path = NotulaAI;
+			sourceTree = "<group>";
+		};
+		04530B0B2BFC9E0800FA6098 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				04530B0C2BFC9E0800FA6098 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		04530B162BFCB25E00FA6098 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				04530B352C00EE0100FA6098 /* AVPlayer+Ding.swift */,
+				04530B422C032CD400FA6098 /* ErrorWrapper.swift */,
+				04530B3E2C022FAA00FA6098 /* History.swift */,
+				0485D9392C03ADFD007360BE /* LoadingState.swift */,
+				04530B192BFCB52F00FA6098 /* Meeting.swift */,
+				04530B402C02393600FA6098 /* MeetingStore.swift */,
+				0485D9372C037EA1007360BE /* OpenAIModel.swift */,
+				04530B312C00E27500FA6098 /* RecordingTimer.swift */,
+				04530B4A2C034FBE00FA6098 /* SpeechRecognizer.swift */,
+				04530B212BFDA79B00FA6098 /* TrailingIconLabelStyle.swift */,
+				04530B172BFCB27100FA6098 /* Theme.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		04530B1C2BFD9A1800FA6098 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				04530B1F2BFD9A7F00FA6098 /* CardView.swift */,
+				04530B252BFDEC1600FA6098 /* DetailMeetingView.swift */,
+				04530B272C00747500FA6098 /* DetailEditMeetingView.swift */,
+				04530B4C2C03531D00FA6098 /* HistoryView.swift */,
+				04530B232BFDAC5800FA6098 /* MeetingView.swift */,
+				04530B3C2C022BF800FA6098 /* NewMeetingSheetView.swift */,
+				04530B2D2C00DC2F00FA6098 /* RecordingHeaderView.swift */,
+				04530B072BFC9E0700FA6098 /* RecordingView.swift */,
+				04530B462C03488900FA6098 /* RecordingTimerView.swift */,
+				04530B332C00E59F00FA6098 /* RecordingFooterView.swift */,
+				04530B2F2C00E09400FA6098 /* RecordingProgressViewStyle.swift */,
+				04530B482C034AF400FA6098 /* SpeakerArc.swift */,
+				04530B292C008B7F00FA6098 /* ThemeView.swift */,
+				04530B2B2C008D0400FA6098 /* ThemePickerView.swift */,
+				04530B442C032D6A00FA6098 /* ErrorView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		04530B382C00EE7A00FA6098 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				04530B372C00EE7A00FA6098 /* ding.wav */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04530B012BFC9E0700FA6098 /* NotulaAI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04530B112BFC9E0800FA6098 /* Build configuration list for PBXNativeTarget "NotulaAI" */;
+			buildPhases = (
+				04530AFE2BFC9E0700FA6098 /* Sources */,
+				04530AFF2BFC9E0700FA6098 /* Frameworks */,
+				04530B002BFC9E0700FA6098 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NotulaAI;
+			productName = NotulaAI;
+			productReference = 04530B022BFC9E0700FA6098 /* NotulaAI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04530AFA2BFC9E0700FA6098 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					04530B012BFC9E0700FA6098 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = 04530AFD2BFC9E0700FA6098 /* Build configuration list for PBXProject "NotulaAI" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04530AF92BFC9E0700FA6098;
+			productRefGroup = 04530B032BFC9E0700FA6098 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04530B012BFC9E0700FA6098 /* NotulaAI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04530B002BFC9E0700FA6098 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04530B392C00EE7A00FA6098 /* ding.wav in Resources */,
+				04530B0D2BFC9E0800FA6098 /* Preview Assets.xcassets in Resources */,
+				04530B0A2BFC9E0800FA6098 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04530AFE2BFC9E0700FA6098 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04530B2C2C008D0400FA6098 /* ThemePickerView.swift in Sources */,
+				04530B242BFDAC5800FA6098 /* MeetingView.swift in Sources */,
+				04530B302C00E09400FA6098 /* RecordingProgressViewStyle.swift in Sources */,
+				04530B2A2C008B7F00FA6098 /* ThemeView.swift in Sources */,
+				04530B472C03488900FA6098 /* RecordingTimerView.swift in Sources */,
+				04530B1A2BFCB52F00FA6098 /* Meeting.swift in Sources */,
+				04530B362C00EE0100FA6098 /* AVPlayer+Ding.swift in Sources */,
+				04530B4D2C03531D00FA6098 /* HistoryView.swift in Sources */,
+				0485D93A2C03ADFD007360BE /* LoadingState.swift in Sources */,
+				04530B082BFC9E0700FA6098 /* RecordingView.swift in Sources */,
+				0485D9382C037EA1007360BE /* OpenAIModel.swift in Sources */,
+				04530B182BFCB27100FA6098 /* Theme.swift in Sources */,
+				04530B452C032D6A00FA6098 /* ErrorView.swift in Sources */,
+				04530B2E2C00DC2F00FA6098 /* RecordingHeaderView.swift in Sources */,
+				04530B262BFDEC1600FA6098 /* DetailMeetingView.swift in Sources */,
+				04530B322C00E27500FA6098 /* RecordingTimer.swift in Sources */,
+				04530B282C00747500FA6098 /* DetailEditMeetingView.swift in Sources */,
+				04530B342C00E59F00FA6098 /* RecordingFooterView.swift in Sources */,
+				04530B432C032CD400FA6098 /* ErrorWrapper.swift in Sources */,
+				04530B492C034AF500FA6098 /* SpeakerArc.swift in Sources */,
+				04530B3F2C022FAA00FA6098 /* History.swift in Sources */,
+				04530B412C02393600FA6098 /* MeetingStore.swift in Sources */,
+				04530B202BFD9A7F00FA6098 /* CardView.swift in Sources */,
+				04530B062BFC9E0700FA6098 /* NotulaAIApp.swift in Sources */,
+				04530B4B2C034FBE00FA6098 /* SpeechRecognizer.swift in Sources */,
+				04530B222BFDA79B00FA6098 /* TrailingIconLabelStyle.swift in Sources */,
+				04530B3D2C022BF800FA6098 /* NewMeetingSheetView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		04530B0F2BFC9E0800FA6098 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04530B102BFC9E0800FA6098 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		04530B122BFC9E0800FA6098 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = NotulaAI/NotulaAI.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NotulaAI/Preview Content\"";
+				DEVELOPMENT_TEAM = CR93XF78GT;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Audio is recorded to transcribe the meeting. Audio recordings are discarded after transcription.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "You can view a text transcription of your meeting in the app.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Kementerian-Sekretariat-Negara.NotulaAI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = macosx;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		04530B132BFC9E0800FA6098 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = NotulaAI/NotulaAI.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NotulaAI/Preview Content\"";
+				DEVELOPMENT_TEAM = CR93XF78GT;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Audio is recorded to transcribe the meeting. Audio recordings are discarded after transcription.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "You can view a text transcription of your meeting in the app.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Kementerian-Sekretariat-Negara.NotulaAI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = macosx;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04530AFD2BFC9E0700FA6098 /* Build configuration list for PBXProject "NotulaAI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04530B0F2BFC9E0800FA6098 /* Debug */,
+				04530B102BFC9E0800FA6098 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04530B112BFC9E0800FA6098 /* Build configuration list for PBXNativeTarget "NotulaAI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04530B122BFC9E0800FA6098 /* Debug */,
+				04530B132BFC9E0800FA6098 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04530AFA2BFC9E0700FA6098 /* Project object */;
+}
